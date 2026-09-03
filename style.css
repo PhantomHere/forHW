@@ -1,0 +1,122 @@
+/* Warm Café Dark-Theme Redesign */
+body {
+    max-width: 650px;
+    margin: 40px auto;
+    font-family: 'Georgia', serif;
+    line-height: 1.7;
+    background-color: #1c1611;
+    color: #ede6de;
+    padding: 0 20px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #3e3227;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #dfd3c3;
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+h2 {
+    color: #c7b198;
+    border-bottom: 1px dashed #3e3227;
+    padding-bottom: 5px;
+}
+
+.photo {
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    display: block;
+    margin: 15px 0;
+    border: 3px double #c7b198;
+    border-radius: 8px;
+}
+
+dl {
+    background-color: #2b221a;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid #c7b198;
+}
+
+dt {
+    font-weight: bold;
+    color: #dfd3c3;
+    font-size: 1.1rem;
+}
+
+dd {
+    margin-bottom: 10px;
+    color: #bfa286;
+}
+
+pre {
+    background-color: #110d0a;
+    color: #a7d7c5;
+    padding: 15px;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-family: monospace;
+}
+
+blockquote {
+    border-left: 4px italic #bfa286;
+    padding-left: 20px;
+    color: #d1c7bd;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.accent {
+    color: #ff7e67;
+    font-weight: bold;
+    background-color: #3d221d;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+.colored-text {
+    color: #5d9cec;
+}
+
+.feature-big {
+    font-size: 26px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.size-px { font-size: 24px; }
+.size-em { font-size: 2em; }
+.size-rem { font-size: 2rem; }
+
+.box {
+    background-color: #2b221a;
+    border: 1px solid #3e3227;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 4px;
+}
+
+.box-vw { width: 50vw; max-width: 100%; }
+.box-vmin { width: 50vmin; max-width: 100%; }
+
+.rgb-color { color: rgb(240, 84, 84); }
+.rgba-color { color: rgba(84, 160, 240, 0.7); }
+.hex-color { color: #2ecc71; }
+.hsl-color { color: hsl(280, 50%, 70%); }
+.named-color { color: orange; }
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #3e3227;
+    font-size: 0.9rem;
+    color: #7c6853;
+}
